@@ -2,10 +2,15 @@
 /// @DnDVersion : 1
 /// @DnDHash : 1A9A91DB
 /// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-/// @DnDArgument : "funcName" "SansClicker"
-function SansClicker() 
+/// @DnDArgument : "funcName" "SansClickerStart"
+function SansClickerStart() 
 {
-
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 4973743A
+	/// @DnDParent : 1A9A91DB
+	/// @DnDArgument : "var" "ClickCounter"
+	global.ClickCounter = 0;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
